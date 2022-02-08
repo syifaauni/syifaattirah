@@ -1,0 +1,357 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>gallery</title>
+<a name="gallery.html"</a>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:#ffffe6 ;
+  color:#333;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 10px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color:#ffffe6;
+  width: 100px;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color:#ffffe6;
+  padding: 10px;
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:#333;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<style>
+body {
+  background-image: url("https://i.pinimg.com/564x/7b/38/fb/7b38fb0bf0bb0eb18b657b4b1c3625b7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<body>
+<div class="header">
+<h1><b><font face= bodoni mt black>GALLERY</h1></b></font>
+  <marquee><p><B><font face= bodoni mt black><font color="696969">LETS GET TO KNOW ME</p></marquee></b></font>
+</div>
+
+<div class="topnav">
+<a href="index.html">HOME</a>
+ <a href="index.html #biodata">BIODATA</a>
+  <a href="experience.html">EXPERIENCE</a>
+  <a href="education.html">EDUCATION</a>
+  <a href="family.html">FAMILY</a>
+  <a href="slideshow.html">GALLERY</a>
+</div>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 15</div>
+  <img src="https://i.pinimg.com/564x/27/cb/08/27cb088352326c09cb216ace617ec79e.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 15</div>
+  <img src="https://i.pinimg.com/564x/92/2c/49/922c497babed8d803ce3e8a0128ee260.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 15</div>
+  <img src="https://i.pinimg.com/564x/36/3c/d8/363cd87ed9c0e301f4ac7f64d9b08eaf.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 15</div>
+  <img src="https://i.pinimg.com/736x/74/c1/9b/74c19b1bd4503dfc85d6a17fe0505913.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 15</div>
+  <img src="https://i.pinimg.com/564x/e0/f5/0f/e0f50ffd658a42edc198637173dd93e5.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 15</div>
+  <img src="https://i.pinimg.com/736x/4d/99/af/4d99af73588e784201e0f2b9df1592f2.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7 / 15</div>
+  <img src="https://i.pinimg.com/564x/33/2d/1e/332d1eac5af012a23024bfacd4c1aeed.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 15</div>
+  <img src="https://i.pinimg.com/564x/5c/20/7e/5c207e80e94b892137fa044fe4982f79.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 15</div>
+  <img src="https://i.pinimg.com/736x/4c/02/26/4c0226215d59e539de9c406f97433950.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">10 / 15</div>
+  <img src="https://i.pinimg.com/564x/4e/fa/a6/4efaa61f61f926fd95ade71665b7f2c5.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 15</div>
+  <img src="https://i.pinimg.com/564x/64/51/47/6451474c273e1a476247b93befb63553.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">12 / 15</div>
+  <img src="https://i.pinimg.com/564x/f8/20/86/f82086f610819b600b1fc03231a32cfa.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">13 / 15</div>
+  <img src="https://i.pinimg.com/564x/79/f9/60/79f960f42050b500966bab5ca303d4fa.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">14 / 15</div>
+  <img src="https://i.pinimg.com/564x/8d/80/41/8d8041dbde83f913c5b4218a30f353b3.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">15 / 15</div>
+  <img src="https://i.pinimg.com/564x/63/47/5c/63475c1b59b27d8d8a26c096d645aca7.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<!-- END MAIN -->
+</body>
+</html>
